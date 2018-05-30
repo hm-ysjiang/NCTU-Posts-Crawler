@@ -10,8 +10,6 @@ url_pref = 'https://infonews.nctu.edu.tw/index.php' \
            '?topflag=1&SuperType=2&SuperTypeNo=2&type=%A6%E6%ACF&action=detail&id='
 text = ''
 
-BS = BeautifulSoup
-
 
 def readconfig() -> list:
     config = configparser.ConfigParser()
