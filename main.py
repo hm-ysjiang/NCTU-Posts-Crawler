@@ -102,7 +102,6 @@ def start():
                 continue
             # No post available
             else:
-                print(*index)
                 # safe_break_check
                 flag = False
                 for i in range(config[3]):
